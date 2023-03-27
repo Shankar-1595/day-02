@@ -1,0 +1,11 @@
+##create the file
+##vi numbers_arithmatic.sh
+
+#!/bin/bash
+num1 = 10
+num2 = 2
+echo $(num1+num2)
+wq!
+
+##Output will come to use below command
+##./numbers_arithmatic.sh
