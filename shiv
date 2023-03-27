@@ -1,0 +1,15 @@
+##create the file
+## vi string_processing.sh
+
+#!/bin/bash
+str = "Hello World"
+#length of the string
+echo ${#str}
+read str1
+read str2
+newstr = $str1$str2
+echo "concatenated string is $newstr"
+wq!
+
+##for output run this cmd ./string_processing.sh
+
